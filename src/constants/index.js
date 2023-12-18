@@ -1,4 +1,14 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,  } from "../assets";
+// const star = 'star-icon-url';
+const cssIcon = 'https://i.pinimg.com/564x/ce/45/5f/ce455f4e7d741fb85eb763cbbdf9e43f.jpg';
+const htmlIcon = 'https://i.pinimg.com/564x/e3/b8/10/e3b810bb6bf005c04b256c6cbcca3efb.jpg';
+const javascriptIcon = 'https://i.pinimg.com/564x/0c/de/d3/0cded3a3276425911d55a2552bf361bf.jpg';
+// const graphqlIcon = 'graphql-icon-url';
+// const prismaIcon = 'prisma-icon-url';
+// const hasuraIcon = 'hasura-icon-url';
+const githubIcon = 'https://i.pinimg.com/564x/cf/5f/7d/cf5f7dca8d30d52a39f4043f3796d7f0.jpg';
+const nodejsIcon = 'https://i.pinimg.com/564x/cc/de/d2/ccded25b6b35c689e9724ed483326d0f.jpg';
+const reactIcon = 'https://i.pinimg.com/564x/69/16/e2/6916e2b11f37661b5ba69a422c49460c.jpg';
 
 export const navLinks = [
   {
@@ -19,27 +29,70 @@ export const navLinks = [
   },
 ];
 
+
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "xxxxxxxxx",
+    icon: cssIcon,
+    title: "CSS",
     content:
       "Self confidence is a super power. Once you start to believe in yourself, magic starts happening.",
   },
   {
     id: "feature-2",
-    icon: star,
-    title: "xxxxxxxx",
+    icon: htmlIcon,
+    title: "HTML",
     content:
       "“As soon as you start to pursue a dream, your life wakes up and everything has meaning.”",
   },
   {
     id: "feature-3",
-    icon: star,
-    title: "xxxxxxxxx",
+    icon: javascriptIcon,
+    title: "JavaScript",
     content:
       "“Be a dreamer. If you don’t know how to dream, you’re dead.” ",
+  },
+  // {
+  //   id: "feature-4",
+  //   icon: graphqlIcon,
+  //   title: "GraphQL",
+  //   content:
+  //     "Description for GraphQL skill goes here.",
+  // },
+  // {
+  //   id: "feature-5",
+  //   icon: prismaIcon,
+  //   title: "Prisma",
+  //   content:
+  //     "Description for Prisma skill goes here.",
+  // },
+  // {
+  //   id: "feature-6",
+  //   icon: hasuraIcon,
+  //   title: "Hasura",
+  //   content:
+  //     "Description for Hasura skill goes here.",
+  // },
+  {
+    id: "feature-7",
+    icon: githubIcon,
+    title: "GitHub",
+    content:
+      "Description for GitHub skill goes here.",
+  },
+  {
+    id: "feature-8",
+    icon: nodejsIcon,
+    title: "Node.js",
+    content:
+      "Description for Node.js skill goes here.",
+  },
+  {
+    id: "feature-9",
+    icon: reactIcon,
+    title: "React",
+    content:
+      "Description for React skill goes here.",
   },
 ];
 

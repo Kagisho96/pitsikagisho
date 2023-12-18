@@ -138,3 +138,14 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+/* Set a fixed height and enable scrolling */
+.scrollSection {
+  height: 500px; /* Adjust the height as needed */
+}
+
+/* Ensure content inside scrolls properly */
+.scrollContent {
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 100%; /* Adjust the maximum height if needed */
+}
