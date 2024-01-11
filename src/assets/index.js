@@ -25,6 +25,8 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import kagiso from "./kagiso.png";
 import hero12 from "./hero12.png";
+import PITSIKM from "./PITSIKM.png";
+
 
 export {
   airbnb,
@@ -53,5 +55,6 @@ export {
   people02,
   people03,
   kagiso,
-  hero12
+  hero12,
+  PITSIKM
 };

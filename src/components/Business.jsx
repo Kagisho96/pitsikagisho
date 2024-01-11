@@ -1,6 +1,6 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import { PITSIKM } from "../assets"
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -21,6 +21,15 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
   </div>
 );
+
+const handleViewResumeClick = () => {
+  // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
+  const resumePath =
+    "https://drive.google.com/file/d/1EzrFIry_OpVsPRh3OmZgeOBLT5KerKPW/view?usp=sharing";
+
+  // Open the resume PDF in a new tab
+  window.open(resumePath, "_blank");
+};
 
 const Business = () => (
   <section id="dashboard" className={layout.section}>
@@ -43,14 +52,17 @@ const Business = () => (
             familiarity in GitHub for version control and Node.js and React for
             server-side and front-end development
           </p>
-          <button className="mt-10 py-2.5 px-4 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}">
-            <a href="/resume" className="text-sm font-semibold leading-6">
-              View Resume <span aria-hidden="true">→</span>
-            </a>
+
+          <button
+            className="mt-10 py-2.5 px-4 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none"
+            onClick={handleViewResumeClick}
+          >
+            View Resume <span aria-hidden="true">→</span>
           </button>
+
         </div>
         <img
-          src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
+          src={PITSIKM}
           alt=""
           className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
         />
