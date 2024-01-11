@@ -102,24 +102,22 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Knowledge is the only tool that will take you wherever you wish, but it will not produce results without applying that knowledge.",
-    name: "Pitsi Kagisho",
-    title: "Founder",
-    img: people01,
+    name: "WORK HISTORY",
+    company: "ITTHYNK SMART SOLUTION",
+    workduration: "February 2023 to January 2024"
   },
   {
     id: "feedback-2",
     content:
       "Knowledge is the only tool that will take you wherever you wish, but it will not produce results without applying that knowledge.",
-    name: "Mphaka Johannes",
-    title: "Cousin",
+    name: "EDUCATION",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
       "Knowledge is the only tool that will take you wherever you wish, but it will not produce results without applying that knowledge.",
-    name: "Pitsi Dimpho",
-    title: "Brother",
+    name: "HOBBIES",
     img: people03,
   },
 ];

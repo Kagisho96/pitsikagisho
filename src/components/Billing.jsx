@@ -17,7 +17,7 @@ const Billing = () => (
       I am unapologetically <br className="sm:block hidden" /> myself
       <span className="text-gradient"> – Pitsi Kagisho</span>{" "}
       </h2>
-     
+      
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nesciunt obcaecati voluptatibus dolorem quam aliquam dolor quas, culpa ullam! Voluptatibus tenetur veritatis neque qui ut officia deserunt. Architecto, totam ducimus.
       </p>
