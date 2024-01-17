@@ -32,7 +32,7 @@ const handleViewResumeClick = () => {
 };
 
 const Business = () => (
-  <section id="dashboard" className={layout.section}>
+  <section id="aboutme" className={layout.section}>
     <div className={`${layout.sectionInfo} p-3`}>
       <h2 className={styles.heading2}>
         ABOUT
