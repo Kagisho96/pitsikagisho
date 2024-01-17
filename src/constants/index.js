@@ -100,25 +100,30 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Knowledge is the only tool that will take you wherever you wish, but it will not produce results without applying that knowledge.",
+    content: "Knowledge is the only tool that will take you wherever you wish, but it will not produce results without applying that knowledge.",
     name: "WORK HISTORY",
     company: "ITTHYNK SMART SOLUTION",
-    workduration: "February 2023 to January 2024"
+    workduration: "February 2023 to January 2024",
+    role: "Software Developer Intern",
+    img: "",
   },
   {
     id: "feedback-2",
-    content:
-      "Knowledge is the only tool that will take you wherever you wish, but it will not produce results without applying that knowledge.",
+    content: "Gaining expertise in computer science and mathematics,programming, theoretical CS, linear algebra, calculus, AI, and formal logic.",
     name: "EDUCATION",
-    img: people02,
+    company: "University Of South Africa (UNISA)",
+    workduration: "2021 -",
+    role: "Computer Science Student",
+    img: ""
   },
   {
     id: "feedback-3",
-    content:
-      "Knowledge is the only tool that will take you wherever you wish, but it will not produce results without applying that knowledge.",
+    content: "I enjoy coding, chess, watching and playing soccer, reading, puzzles, fitness, DIY electronics, music, art, travel, cooking, and learning tech.",
     name: "HOBBIES",
-    img: people03,
+    // company: "University Of South Africa(UNISA)",
+    // img: "",
+    // workduration: "February 2023 to January 2024",
+    // role: "Software Developer Intern"
   },
 ];
 
