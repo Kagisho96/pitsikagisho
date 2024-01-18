@@ -41,7 +41,7 @@ const CTA = () => (
           <dd>
             <a
               className="font-poppins font-semibold xs:text-[15px] text-[10px] xs:leading-[26.58px] leading-[21.58px] text-gradient uppercase ml-3"
-              href="tel:+1 (555) 234-5678"
+              href="0721518903"
             >
               +27 72 151 8903
             </a>
@@ -59,7 +59,7 @@ const CTA = () => (
           <dd>
             <a
               className="font-poppins font-semibold xs:text-[15px] text-[10px] xs:leading-[26.58px] leading-[21.58px] text-gradient uppercase ml-3"
-              href="mailto:hello@example.com"
+              href="kagishopitsi@gmail.com"
             >
               kagishopitsi@gmail.com
             </a>
