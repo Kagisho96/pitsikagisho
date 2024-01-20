@@ -24,8 +24,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const handleViewResumeClick = () => {
   // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
-  const resumePath =
-    "https://drive.google.com/file/d/1EzrFIry_OpVsPRh3OmZgeOBLT5KerKPW/view?usp=sharing";
+  const resumePath = "https://docs.google.com/document/d/1vHxoDtUuuyCGCcI2barnRSxOXomvq-P2/edit?usp=sharing&ouid=117279439866730988520&rtpof=true&sd=true"
+    // "https://drive.google.com/file/d/1EzrFIry_OpVsPRh3OmZgeOBLT5KerKPW/view?usp=sharing";
 
   // Open the resume PDF in a new tab
   window.open(resumePath, "_blank");
