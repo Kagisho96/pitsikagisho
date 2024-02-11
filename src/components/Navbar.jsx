@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import { close, dropbox, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -9,8 +8,10 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={dropbox} alt="hoobank" className="w-[60px] h-[32px] cursor-pointer" />
-
+      {/* <img src={dropbox} alt="hoobank" className="w-[60px] h-[32px] cursor-pointer" /> */}
+      <p className="text-white font-bold text-xl w-[60px] h-[32px] cursor-pointer uppercase">
+        Pitsi<span className="text-gradient">KM</span>
+      </p>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
