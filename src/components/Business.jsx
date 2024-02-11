@@ -1,6 +1,6 @@
-import { features } from "../constants";
 import styles, { layout } from "../style";
-import { PITSIKM } from "../assets"
+import { PITSIKM } from "../assets";
+import { features } from "../constants";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -24,8 +24,9 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const handleViewResumeClick = () => {
   // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
-  const resumePath = "https://docs.google.com/document/d/1vHxoDtUuuyCGCcI2barnRSxOXomvq-P2/edit?usp=sharing&ouid=117279439866730988520&rtpof=true&sd=true"
-    // "https://drive.google.com/file/d/1EzrFIry_OpVsPRh3OmZgeOBLT5KerKPW/view?usp=sharing";
+  const resumePath =
+    "https://docs.google.com/document/d/1vHxoDtUuuyCGCcI2barnRSxOXomvq-P2/edit?usp=sharing&ouid=117279439866730988520&rtpof=true&sd=true";
+  // "https://drive.google.com/file/d/1EzrFIry_OpVsPRh3OmZgeOBLT5KerKPW/view?usp=sharing";
 
   // Open the resume PDF in a new tab
   window.open(resumePath, "_blank");
@@ -59,7 +60,6 @@ const Business = () => (
           >
             View Resume <span aria-hidden="true">→</span>
           </button>
-
         </div>
         <img
           src={PITSIKM}
@@ -68,9 +68,11 @@ const Business = () => (
         />
       </div>
     </div>
-    <div className="mt-36">
-      <p className={`${styles.heading2} text-gradient`}>Skills & Experiences</p>
-      <div className="flex-col w-[550px] max-h-[600px] overflow-y-auto mt-8 bg-gray-900 rounded-lg border border-gray-600">
+    <div className="mt-12 md:mt-36">
+      <p className={`${styles.heading2} text-gradient text-center`}>
+        Skills & Experiences
+      </p>
+      <div className="flex-col w-full md:w-[550px] max-h-[600px] md:max-h-[80vh] overflow-y-auto mt-8 bg-gray-900 rounded-lg border border-gray-600 mx-4 md:mx-auto">
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}
