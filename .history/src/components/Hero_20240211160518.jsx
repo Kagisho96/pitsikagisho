@@ -12,7 +12,7 @@ const Hero = () => {
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">SIMPLE</span> profile display for{" "}
-            <span className="text-white animate-bounce">PITSI KAGISHO</span> the great.
+            <span className="text-white ">PITSI KAGISHO</span> the great.
           </p>
         </div>
 
