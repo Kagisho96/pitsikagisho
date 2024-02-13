@@ -1,4 +1,6 @@
-import { airbnb, binance, coinbase, dropbox, facebook, instagram, itthynk, linkedin, people01, people02, people03, send, shield, star, twitter, unisalogo } from "../assets";
+import { airbnb, binance, coinbase, dropbox, facebook, instagram, it, linkedin, people01, people02, people03, send, shield, star, twitter } from "../assets";
+
+// import { itthynk } from ".";
 
 // const star = 'star-icon-url';
 const cssIcon = 'https://i.pinimg.com/564x/ce/45/5f/ce455f4e7d741fb85eb763cbbdf9e43f.jpg';
@@ -106,7 +108,7 @@ export const feedback = [
     company: "ITTHYNK SMART SOLUTION",
     workduration: "February 2023 to January 2024",
     role: "Software Developer Intern",
-    img: itthynk,
+    img: star,
   },
   {
     id: "feedback-2",
@@ -115,7 +117,16 @@ export const feedback = [
     company: "University Of South Africa (UNISA)",
     workduration: "2021 -",
     role: "Computer Science Student",
-    img: unisalogo
+    img: ""
+  },
+  {
+    id: "feedback-3",
+    content: "I enjoy coding, chess, watching and playing soccer, reading, puzzles, fitness, DIY electronics, music, art, travel, cooking, and learning tech.",
+    name: "HOBBIES",
+    // company: "University Of South Africa(UNISA)",
+    // img: "",
+    // workduration: "February 2023 to January 2024",
+    // role: "Software Developer Intern"
   },
 ];
 

@@ -117,6 +117,15 @@ export const feedback = [
     role: "Computer Science Student",
     img: unisalogo
   },
+  {
+    id: "feedback-3",
+    content: "I enjoy coding, chess, watching and playing soccer, reading, puzzles, fitness, DIY electronics, music, art, travel, cooking, and learning tech.",
+    name: "HOBBIES",
+    // company: "University Of South Africa(UNISA)",
+    // img: "",
+    // workduration: "February 2023 to January 2024",
+    // role: "Software Developer Intern"
+    
 ];
 
 export const stats = [
