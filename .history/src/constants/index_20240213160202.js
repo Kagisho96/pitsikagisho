@@ -1,4 +1,4 @@
-import { airbnb, binance, coinbase, dropbox, facebook, instagram, linkedin, people01, people02, people03, send, shield, star, twitter } from "../assets";
+import { , airbnb, binance, coinbase, dropbox, facebook, instagram, linkedin, people01, people02, people03, send, shield, star, twitter } from "../assets";
 
 // const star = 'star-icon-url';
 const cssIcon = 'https://i.pinimg.com/564x/ce/45/5f/ce455f4e7d741fb85eb763cbbdf9e43f.jpg';
