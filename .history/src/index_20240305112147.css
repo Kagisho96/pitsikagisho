@@ -181,17 +181,17 @@
   border: none;
   animation: r1 3s ease-in-out infinite;
  /*linear*/
-  /* border: 1px #f6f6f6fb solid;
-  border-radius: 10px; */
+  border: 7px #056bfa21 solid;
+  border-radius: 14px;
 }
 
 /* button styling */
 .buttonpma {
   --border-right: 6px;
-  --text-stroke-color: rgba(248, 248, 249, 0.78);
-  --animation-color: #8da6ca;
-  --fs-size: 1.5em;
-  letter-spacing: 2px;
+  --text-stroke-color: rgba(85, 87, 255, 0.78);
+  --animation-color: #a5c1ea;
+  --fs-size: 2em;
+  letter-spacing: 3px;
   text-decoration: none;
   font-size: var(--fs-size);
   font-family: "Arial";

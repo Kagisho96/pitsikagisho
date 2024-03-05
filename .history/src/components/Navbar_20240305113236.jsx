@@ -14,7 +14,7 @@ const Navbar = () => {
         Pitsi<span className="text-gradient">KM</span>
       </p> */}
       <p data-text="Awesome" class="buttonpma">
-        <span className="hover-text" aria-hidden="true">
+        <span className="text-gradient" aria-hidden="true">
           &nbsp;pitsi&nbsp;
         </span>
         Pitsi

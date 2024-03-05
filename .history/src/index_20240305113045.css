@@ -188,9 +188,9 @@
 /* button styling */
 .buttonpma {
   --border-right: 6px;
-  --text-stroke-color: rgba(248, 248, 249, 0.78);
+  --text-stroke-color: rgba(85, 87, 255, 0.78);
   --animation-color: #8da6ca;
-  --fs-size: 1.5em;
+  --fs-size: 1em;
   letter-spacing: 2px;
   text-decoration: none;
   font-size: var(--fs-size);

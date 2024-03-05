@@ -14,11 +14,8 @@ const Navbar = () => {
         Pitsi<span className="text-gradient">KM</span>
       </p> */}
       <p data-text="Awesome" class="buttonpma">
-        <span className="hover-text" aria-hidden="true">
-          &nbsp;pitsi&nbsp;
-        </span>
-        Pitsi
-        <span className="text-gradient">KM</span>
+        <span class="actual-text">&nbsp;uiverse&nbsp;</span>
+        Pitsi<span className="text-gradient">KM</span>
       </p>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

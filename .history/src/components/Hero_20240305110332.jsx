@@ -54,8 +54,8 @@ const Hero = () => {
                 className="letter-animation"
                 style={{ animationDelay: "0.5s" }}
               >
-                {" "}
-              </span>{" "}
+                " "
+              </span>
               <span
                 className="letter-animation"
                 style={{ animationDelay: "0.6s" }}

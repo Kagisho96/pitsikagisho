@@ -21,84 +21,8 @@ const Hero = () => {
           <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[42px] text-white ss:leading-[75px] leading-[50px]">
             <span className="text-gradient">Hello I'm</span>{" "}
             {/* <span className="text-[64px] font-extrabold">Pitsi Kagisho</span> */}
-            <span
-              className="text-[64px] font-bold"
-              style={{ whiteSpace: "nowrap", overflow: "hidden" }}
-            >
-              <span className="letter-animation">P</span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.1s" }}
-              >
-                i
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.2s" }}
-              >
-                t
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.3s" }}
-              >
-                s
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.4s" }}
-              >
-                i
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.5s" }}
-              >
-                {" "}
-              </span>{" "}
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.6s" }}
-              >
-                K
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.7s" }}
-              >
-                a
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.8s" }}
-              >
-                g
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.9s" }}
-              >
-                i
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "1s" }}
-              >
-                s
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "1.1s" }}
-              >
-                h
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "1.2s" }}
-              >
-                o
-              </span>
-            </span>
+            
+
             <br className="sm:block hidden" />{" "}
             <span className="text-gradient">a Full Stack-Developer</span>{" "}
           </h1>

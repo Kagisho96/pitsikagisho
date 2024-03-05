@@ -21,7 +21,7 @@ const Hero = () => {
           <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[42px] text-white ss:leading-[75px] leading-[50px]">
             <span className="text-gradient">Hello I'm</span>{" "}
             {/* <span className="text-[64px] font-extrabold">Pitsi Kagisho</span> */}
-            <span
+            {/* <span
               className="text-[64px] font-bold"
               style={{ whiteSpace: "nowrap", overflow: "hidden" }}
             >
@@ -56,6 +56,7 @@ const Hero = () => {
               >
                 {" "}
               </span>{" "}
+              {/* Space */}
               <span
                 className="letter-animation"
                 style={{ animationDelay: "0.6s" }}
@@ -98,7 +99,7 @@ const Hero = () => {
               >
                 o
               </span>
-            </span>
+            </span> */}
             <br className="sm:block hidden" />{" "}
             <span className="text-gradient">a Full Stack-Developer</span>{" "}
           </h1>

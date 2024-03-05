@@ -12,93 +12,89 @@ const Hero = () => {
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">SIMPLE</span> profile display for{" "}
-            <span className="text-white animate-bounce">PITSI KAGISHO</span> the
-            great.
+            {/* <span className="text-white animate-bounce">PITSI KAGISHO</span> the great. */}
+            <span class="text-9xl font-extrabold overflow-hidden">
+              <span class="inline-block animate-typing">P</span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 0.1s;"
+              >
+                i
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 0.2s;"
+              >
+                t
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 0.3s;"
+              >
+                s
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 0.4s;"
+              >
+                i
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 0.5s;"
+              >
+                {" "}
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 0.6s;"
+              >
+                K
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 0.7s;"
+              >
+                a
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 0.8s;"
+              >
+                g
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 0.9s;"
+              >
+                i
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 1s;"
+              >
+                s
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 1.1s;"
+              >
+                h
+              </span>
+              <span
+                class="inline-block animate-typing"
+                style="animation-delay: 1.2s;"
+              >
+                o
+              </span>
+            </span>
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[42px] text-white ss:leading-[75px] leading-[50px]">
             <span className="text-gradient">Hello I'm</span>{" "}
-            {/* <span className="text-[64px] font-extrabold">Pitsi Kagisho</span> */}
-            <span
-              className="text-[64px] font-bold"
-              style={{ whiteSpace: "nowrap", overflow: "hidden" }}
-            >
-              <span className="letter-animation">P</span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.1s" }}
-              >
-                i
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.2s" }}
-              >
-                t
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.3s" }}
-              >
-                s
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.4s" }}
-              >
-                i
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.5s" }}
-              >
-                {" "}
-              </span>{" "}
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.6s" }}
-              >
-                K
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.7s" }}
-              >
-                a
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.8s" }}
-              >
-                g
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "0.9s" }}
-              >
-                i
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "1s" }}
-              >
-                s
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "1.1s" }}
-              >
-                h
-              </span>
-              <span
-                className="letter-animation"
-                style={{ animationDelay: "1.2s" }}
-              >
-                o
-              </span>
-            </span>
+            <span className="text-[64px] font-extrabold">Pitsi Kagisho</span>
             <br className="sm:block hidden" />{" "}
             <span className="text-gradient">a Full Stack-Developer</span>{" "}
           </h1>

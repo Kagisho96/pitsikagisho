@@ -56,6 +56,7 @@ const Hero = () => {
               >
                 {" "}
               </span>{" "}
+              {/* Space */}
               <span
                 className="letter-animation"
                 style={{ animationDelay: "0.6s" }}

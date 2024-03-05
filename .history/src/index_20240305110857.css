@@ -158,7 +158,7 @@
   background-repeat: no-repeat;
   /* Additional styles if needed */
 }
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -170,64 +170,20 @@
 .letter-animation {
   display: inline-block;
   animation: fadeIn 0.5s forwards;
+} */
+
+@keyframes changeColor {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
-/* === removing default button style ===*/
-.buttonpma {
-  margin: 0;
-  height: auto;
-  background: transparent;
-  padding: 0;
-  border: none;
-  animation: r1 3s ease-in-out infinite;
- /*linear*/
-  /* border: 1px #f6f6f6fb solid;
-  border-radius: 10px; */
+.gradient-text {
+  background-image: linear-gradient(to right, #ff00ff, #00ffff);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: changeColor 2s linear infinite;
 }
 
-/* button styling */
-.buttonpma {
-  --border-right: 6px;
-  --text-stroke-color: rgba(248, 248, 249, 0.78);
-  --animation-color: #8da6ca;
-  --fs-size: 1.5em;
-  letter-spacing: 2px;
-  text-decoration: none;
-  font-size: var(--fs-size);
-  font-family: "Arial";
-  position: relative;
-  text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 1px var(--text-stroke-color);
-}
-/* this is the text, when you hover on button */
-.hover-text {
-  position: absolute;
-  box-sizing: border-box;
-  content: attr(data-text);
-  color: var(--animation-color);
-  width: 0%;
-  inset: 0;
-  border-right: var(--border-right) solid var(--animation-color);
-  overflow: hidden;
-  transition: 1.5s;
-  -webkit-text-stroke: 1px var(--animation-color);
-  animation: r2 2s ease-in-out infinite;
-}
-/* hover */
-.buttonpma:hover .hover-text {
-  width: 100%;
-  filter: drop-shadow(0 0 70px var(--animation-color))
-}
-
-@keyframes r1 {
-  50% {
-    transform: rotate(-1deg) rotateZ(-10deg);
-  }
-}
-
-@keyframes r2 {
-  50% {
-    transform: rotateX(-65deg);
-  }
-}
