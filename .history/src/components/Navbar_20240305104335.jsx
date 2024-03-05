@@ -9,9 +9,16 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* <img src={dropbox} alt="hoobank" className="w-[60px] h-[32px] cursor-pointer" /> */}
-      <p className="text-white font-bold text-xl w-[60px] h-[32px] cursor-pointer uppercase">
+      {/* <p className="text-white font-bold text-xl w-[60px] h-[32px] cursor-pointer uppercase">
         Pitsi<span className="text-gradient">KM</span>
-      </p>
+      </p> */}
+
+<p class="text-white font-bold text-xl w-[60px] h-[32px] cursor-pointer uppercase relative">
+  Pitsi
+  <span class="button absolute top-0 left-0 w-full h-full overflow-hidden transition-all duration-1000 animate-ani cursor-pointer text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-yellow-500 hover:text-black">
+    KM
+  </span>
+</p>
 
 
 
