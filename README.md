@@ -22,3 +22,26 @@ Welcome to the repository for Pitsi Kagisho's portfolio website. This portfolio 
 
 ```bash
 git clone https://github.com/your-username/pitsi-kagisho-portfolio.git -->
+
+
+    200 │───────────────────────│
+       │                       │
+       │                       │
+       │                       │
+       │                       │
+       │                       │
+  150 │───────────────┐       │
+       │             │       │
+       │             │       │
+       │             │       │
+  100 │───────┐     │       │
+       │     │       │       │
+       │     │       │       │
+       │     │       │       │
+   50 │───┐ │     │       │
+       │   │       │       │
+       │   │       │       │
+       │   │       │       │
+    0 │───┘ │     │       │
+      ────────────────│───────► x
+       0   50   75   90  105  150  180  190
